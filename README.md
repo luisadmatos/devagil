@@ -1,33 +1,66 @@
-# 🧩 Seminário: Commits em Pull Requests - Organização e Clareza
+# Dinâmica de Pull Request – Sala de Aula
 
-Este repositório foi criado como apoio para o seminário **"Commits em Pull Requests - Organização e Clareza"**, apresentado com o objetivo de demonstrar a importância das boas práticas no uso do Git e GitHub em ambientes de desenvolvimento colaborativo.
-
----
-
-## 🎯 Objetivo do Seminário
-
-O seminário tem como principal objetivo mostrar **como o uso correto de commits e pull requests contribui para a qualidade, organização e manutenção de projetos de software**.
-
-Além da parte teórica, o seminário também inclui **demonstrações práticas** com exemplos reais de:
-- Commits bem estruturados
-- Pull requests com mensagens claras e objetivas
-- Comparação entre um histórico “limpo” e um “bagunçado”
----
-
-## 🧠 Tópicos abordados
-
-- O que são commits?
-- O que é um Pull Request?
-- Como os commits aparecem no Pull Request
-- O que acontece após a aprovação?
-- Papéis dos Colaboradores em um Projeto com Pull Requests
-- Fluxo de trabalho completo
-- Exemplos práticos: antes e depois
+Bem-vindos!  
+Esta dinâmica tem como objetivo simular o fluxo real de trabalho em equipes de desenvolvimento usando **Pull Requests** no GitHub.
 
 ---
 
-## 📌 Considerações finais
+## 🎭 Papéis na dinâmica
 
-Manter um histórico de commits organizado e claro é um diferencial para equipes ágeis, colaborativas e eficientes. Este seminário busca conscientizar e preparar os participantes para adotar essas práticas desde cedo em sua jornada como desenvolvedores.
+Cada trio terá os papéis:
+- **DEV** → cria a branch, faz alteração e abre a Pull Request
+- **REVISOR** → analisa a PR e aprova ou solicita melhorias
+- **MASTER** → faz o merge quando houver aprovação válida
+
+Ao final de cada rodada, os papéis trocam entre os alunos.
 
 ---
+
+## 🛑 Regras da Branch `main`
+
+- A branch `main` está **protegida**
+- **Não é permitido push direto**
+- Só é possível integrar alterações através de Pull Request com **aprovador**
+- Somente o Master pode dar o **merge**
+
+---
+
+## 🔀 Fluxo de Trabalho
+
+1️⃣ DEV cria uma branch  
+2️⃣ DEV edita o arquivo `atividade.md`  
+3️⃣ DEV abre uma Pull Request direcionada para `main`  
+4️⃣ REVISOR analisa e aprova a PR  
+5️⃣ MASTER faz o merge
+
+---
+
+## 📍 Troca de Papéis
+
+Após cada PR concluída, os papéis giram:
+
+DEV → REVISOR → MASTER → DEV
+
+---
+
+## 🧪 Como participar
+
+```bash
+# 1. Clonar o repositório
+git clone <url-do-repositorio>
+
+# 2. Entrar na pasta
+cd dinamica-pull-request
+
+# 3. Criar uma nova branch (use nome do trio)
+git checkout -b trio01-dev
+
+# 4. Editar o arquivo atividade.md
+# 5. Commit + Push
+git add .
+git commit -m "Alteração trio 01"
+git push origin trio01-dev
+
+# 6. Abrir Pull Request no GitHub
+
+
