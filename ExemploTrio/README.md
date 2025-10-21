@@ -22,7 +22,7 @@ Sugestões possíveis de melhoria:
 ## ✅ Como contribuir (para a Pull Request)
 
 1. Crie uma nova branch com o nome 'SEUNOME_DEV'
-
+3. teste
 2. Faça a melhoria no `index.html` ou `styles.css`
 3. Abra uma Pull Request para a branch `main`
 4. Aguarde aprovação do Revisor e merge pelo Master
