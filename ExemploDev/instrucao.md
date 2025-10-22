@@ -8,7 +8,7 @@ Ele foi criado como base para atividades de revisão e contribuição por meio d
 ## ✅ Como contribuir (para a Pull Request)
 
 1. Crie uma nova branch com o nome 'SEUNOME_DEV'
-    >> git checkout -b seunome_dev
+    > git checkout -b seunome_dev
 
 3. Crie uma cópia da pasta ExemploDev e a  renomeie para SeunomeDev
 
@@ -21,10 +21,10 @@ Ele foi criado como base para atividades de revisão e contribuição por meio d
 OBS: Aguarde o Revisor e o Master realizarem seus papéis
 
 5. Após o merge, excluir sua branch local
-    >> git branch -d seunome_dev
+    > git branch -d seunome_dev
 
 6. Excluir a branch remot
-    >> git push origin --delete seunome_dev
+    > git push origin --delete seunome_dev
 
 ---
 
@@ -38,7 +38,7 @@ Sugestões possíveis de melhoria:
 
 - Adicionar um botão “Saiba Mais”.
 - Alterar a cor de fundo .
-- Adicionar um título secundário (<h3>) abaixo do texto.
+- Adicionar um título secundário (h3) abaixo do texto.
 - Inserir um parágrafo com descrição da página.
 - Adicionar imagem no corpo da página.
 - Centralizar o título da página.
