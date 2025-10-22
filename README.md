@@ -51,24 +51,24 @@ Dividam-se em trios e em cada rodada, cada integrante executará um dos três pa
 
 ```bash
 # 1. Clonar o repositório
-git clone <url-do-repositorio>
+  >> git clone <url-do-repositorio>
 
 # 2. Entrar na pasta do projeto
-cd pasta
+  >> cd pasta
 
 # 3. Criar uma nova branch (use o padrão seunome_dev)
-git checkout -b seunome_dev
+  >> git checkout -b seunome_dev
 
 # 4. Criar uma cópia da pasta ExemploTrio e renomeá-la para seunome_dev
 
 # 5. Editar os arquivos HTML e CSS de acordo com as instruções no arquivo instrucao.md
 
 # 6. Adicionar e realizar o commit das alterações
-git add .
-git commit -m "Alteração [seunome ou trio]"
+  >> git add .
+  >> git commit -m "Alteração [seunome ou trio]"
 
 # 7. Fazer o push da sua branch para o repositório remoto
-git push origin seunome_dev
+  >> git push origin seunome_dev
 
 # 8. Abrir um Pull Request no GitHub
 
@@ -86,9 +86,9 @@ git push origin seunome_dev
 # 2. Selecionar o Pull Request do DEV que você deve revisar
 
 # 3. Verificar:
-#    - Estrutura e funcionamento do código
-#    - Organização dos arquivos
-#    - Clareza nos commits e descrição do PR
+    - Estrutura e funcionamento do código
+    - Organização dos arquivos
+    - Clareza nos commits e descrição do PR
 
 # 4. Sugerir melhorias, se necessário (use comentários)
 
@@ -103,8 +103,8 @@ git push origin seunome_dev
 # 2. Verificar se o PR está de acordo com as diretrizes do projeto
 
 # 3. Caso esteja tudo certo:
-#    - Realizar o merge da branch (clicar em "Merge Pull Request")
-#    - Confirmar o merge e finalizar o PR
+    - Realizar o merge da branch (clicar em "Merge Pull Request")
+    - Confirmar o merge e finalizar o PR
 
 ```
 
@@ -112,9 +112,9 @@ git push origin seunome_dev
 
 ```bash
 # 1. Após o merge, excluir sua branch local
-git branch -d seunome_dev
+  >> git branch -d seunome_dev
 
 # 2. Excluir a branch remota (opcional)
-git push origin --delete seunome_dev
+  >> git push origin --delete seunome_dev
 
 ```
